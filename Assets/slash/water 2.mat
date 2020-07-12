@@ -79,7 +79,7 @@ Material:
     - _Disolve_Outline_Power: 5
     - _Disolve_Power: 0
     - _Disolve_Powert: 0
-    - _Disolve_U: -0.5
+    - _Disolve_U: 0
     - _Disolve_V: -0.1
     - _Disolve_inside: 4
     - _Disolve_outline: 5

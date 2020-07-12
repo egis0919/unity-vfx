@@ -79,13 +79,13 @@ Material:
     - _Disolve_Outline_Power: 5
     - _Disolve_Power: 0
     - _Disolve_Powert: 0
-    - _Disolve_U: -1
+    - _Disolve_U: -0.2
     - _Disolve_V: -0.1
     - _Disolve_inside: 3
     - _Disolve_outline: 5
     - _Distosion_Power: 0
     - _EdgeLength: 15
-    - _Emission: 1.2
+    - _Emission: 1
     - _Float0: -0.11
     - _Float11: 0.2
     - _Float14: 12.69
