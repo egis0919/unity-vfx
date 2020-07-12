@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: world_trail
+  m_Shader: {fileID: 4800000, guid: 57e2bfb53fc77bf4aa086a889fd9fab6, type: 3}
+  m_ShaderKeywords: _FILP_ON _FLIP_ON _USEV_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: 91d84132398301c4d9b961e505bc56ce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 8150f6f43f753a142bcf05fc6eb8f621, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: cd460ee4ac5c1e746b7a734cc7cc64dd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex4coord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.05
+    - _Flip: 1
+    - _Lerp_power: 1.17
+    - _Max: 0.95
+    - _Min: 0.09
+    - _Tex_v: 1
+    - _Tex_x: 1
+    - __dirty: 0
+    - _filp: 1
+    - _mask_range: 0
+    - _nosie_x: 1
+    - _nosie_y: 1
+    - _useV: 1
+    - _use_particlemax: 0
+    - _use_particlemin: 0
+    m_Colors:
+    - _Color0: {r: 1, g: 0.72291696, b: 0.23113209, a: 0}
+    - _Color1: {r: 0.3537736, g: 1, b: 0.7071289, a: 0}

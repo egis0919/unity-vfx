@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: heal
+  m_Shader: {fileID: 4800000, guid: 2ef30f6b72ca27b42be6779c4c307a77, type: 3}
+  m_ShaderKeywords: _ONEMINUS_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1ba71d7fb47c27242849f73a05ef441f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: 91d84132398301c4d9b961e505bc56ce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: a7d1554a1aaaabf4db79903554cc7e0c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Noise_power: 1
+    - _Opacity: 1
+    - _X: 0
+    - _Y: -0.8
+    - __dirty: 1
+    - _noise_x: 1
+    - _noise_y: 1
+    - _oneminus: 1
+    - _power: 0.8
+    - _tex_x: 1
+    - _tex_y: 1
+    m_Colors:
+    - _Color0: {r: 0, g: 2.4402115, b: 2.828427, a: 0}
+    - _Color1: {r: 0.0036044943, g: 0.28880942, b: 0.764151, a: 0}

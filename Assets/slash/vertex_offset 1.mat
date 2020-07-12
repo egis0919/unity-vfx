@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: vertex_offset 1
+  m_Shader: {fileID: 4800000, guid: d2eb421c8fa8a524da49a6015e603085, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 61c0b9c0523734e0e91bc6043c72a490, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: cdeac6f84093f7a4aad78514aa3d26ad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 2800000, guid: 2ea9d207a8146e9458bef3b5a0428d32, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Float0: 2.67
+    - _Float1: 0
+    - _Float2: 1
+    - _Float3: 1.5
+    - _Float4: 0.04
+    - _Float5: 50
+    - _Float6: 3.35
+    - _Float7: 0.45
+    - _Speed: 0.05
+    - _Speed1: 0.1
+    - _Tex_v: 1
+    - _Tex_x: 1
+    - _ToggleSwitch0: 0
+    - __dirty: 0
+    - _nosie_x: 1
+    - _nosie_y: 1
+    - _speed_y: 0.6
+    - _speed_y1: 1
+    m_Colors:
+    - _Color0: {r: 0.6084906, g: 0.9261303, b: 1, a: 1}
+    - _Color1: {r: 0.7877358, g: 1, b: 0.99133617, a: 0}

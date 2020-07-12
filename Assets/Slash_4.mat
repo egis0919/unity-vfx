@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Slash_4
+  m_Shader: {fileID: 4800000, guid: 1283507d58796d84f84ca10ea3f7aa26, type: 3}
+  m_ShaderKeywords: _PARTICLE_ON _USE_V_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: cd460ee4ac5c1e746b7a734cc7cc64dd, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: 54321d2652ff9334dae59abf1aaa2fe1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture1:
+        m_Texture: {fileID: 2800000, guid: 48f53f9d673ea1f49a58f2a7dab98f22, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 3168448258718da4883d5171842babf0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex4coord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Clamp: 0.27
+    - _Dissolve: 0
+    - _Emission: 1
+    - _Mask_Power: 4
+    - _Noise_Power: 0.214
+    - _Noise_X: 0
+    - _Noise_Y: -0.5
+    - _Opacity: 1
+    - _Particle: 1
+    - _Particle1: 0
+    - _Particle2: 0
+    - _Particle3: 0
+    - _Power: 1
+    - __dirty: 0
+    - _use_v: 1
+    m_Colors:
+    - _Color0: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 0}

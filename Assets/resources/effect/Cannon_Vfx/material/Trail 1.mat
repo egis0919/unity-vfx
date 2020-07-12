@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Trail 1
+  m_Shader: {fileID: 4800000, guid: 34886be3f1b024245883558bd7600ab9, type: 3}
+  m_ShaderKeywords: _ADD_MASK_ON _DISTEX_FILP_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Color_Dis_Tex:
+        m_Texture: {fileID: 2800000, guid: 0777ecfa8cc97cc4ab643f6491b61798, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Dis_Tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_Tex:
+        m_Texture: {fileID: 2800000, guid: 0777ecfa8cc97cc4ab643f6491b61798, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Trail_Tex:
+        m_Texture: {fileID: 2800000, guid: cff5877c8bbfe4c4cb67de9615782ce0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _color_mask:
+        m_Texture: {fileID: 2800000, guid: 0777ecfa8cc97cc4ab643f6491b61798, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Bias: 0
+    - _Scale: 0.74
+    - __dirty: 0
+    - _add_mask: 1
+    - _color_mask_power: 0.03
+    - _disTex_filp: 1
+    - _dis_Bias: 0.11
+    - _dis_Scale: 1
+    - _dis_power: 0
+    - _lerp_power: 0.364
+    - _mask_Bias: 0.46
+    - _mask_Scale: 0.15
+    m_Colors:
+    - _Tex_tilie: {r: 1, g: 1, b: 0, a: 0}
+    - _dis_speed: {r: -0.5, g: 0, b: 0, a: 0}
+    - _mask_power: {r: 1.1886792, g: 1.1886792, b: 1.1886792, a: 0}
+    - _trail_color1: {r: 0.5361584, g: 0.5660378, b: 0.21092917, a: 0}
+    - _trail_color2: {r: 2.828427, g: 1.7622137, b: 0, a: 0}
+    - _trail_speed: {r: -3, g: 0, b: 0, a: 0}

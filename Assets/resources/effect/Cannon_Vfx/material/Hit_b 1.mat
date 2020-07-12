@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hit_b 1
+  m_Shader: {fileID: 4800000, guid: db18d2b990aa60a429c68b19a6206029, type: 3}
+  m_ShaderKeywords: _DONTUSEUVCUSTOM_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Main_Tex:
+        m_Texture: {fileID: 2800000, guid: e73211131fb15984596a221fac70f598, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_Tex:
+        m_Texture: {fileID: 2800000, guid: d4cfa12db606b344ea6704ae933352af, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: d4cfa12db606b344ea6704ae933352af, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: df1a73877e6e817489bcdec99d204d81, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _tex3coord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _Emission: 1
+    - _Float0: 1
+    - _Float1: 2.33
+    - _Float2: 1
+    - _Float3: 100
+    - _Float4: 0.63
+    - _Float5: 0.5
+    - _Float7: 0.7
+    - _Lerp_Power: 0.7
+    - _Nomal: 0
+    - _Opacity: 1
+    - _Power: 1
+    - _Wihtoutcustom: 0
+    - __dirty: 0
+    - _dark_size: 0.851
+    - _dontuseuvcustom: 1
+    - _em_life: 1
+    - _em_size: 1
+    - _height_power: 1
+    - _sub_dark_size: 1
+    - _sub_height_power: 2.53
+    - _sub_power: 0.47
+    - _sub_size: 0
+    m_Colors:
+    - _Color0: {r: 0.1509434, g: 0.047159772, b: 0.017799927, a: 0}
+    - _Color1: {r: 5.992157, g: 2.1365583, b: 0.43921548, a: 0}
+    - _em_1: {r: 0, g: 0, b: 0, a: 0}
+    - _em_2: {r: 1, g: 0.4292453, b: 0.4292453, a: 1}

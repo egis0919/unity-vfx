@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: laser_start_line 1
+  m_Shader: {fileID: 4800000, guid: b12e093c5f55ec343ad72ca70af5c304, type: 3}
+  m_ShaderKeywords: _ALPHABLEND_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Color_dis_tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: eb1a9681e212c4d4ebc42e045509d4da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: 578b893799655a044b7a654d2445e849, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture1:
+        m_Texture: {fileID: 2800000, guid: 08dcec18a6ea9c14b95759f823d99f6d, type: 3}
+        m_Scale: {x: 0, y: 0}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 82a8e66f31a9e654792bee0ab05f9fc8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: df1a73877e6e817489bcdec99d204d81, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 2800000, guid: 54321d2652ff9334dae59abf1aaa2fe1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample3:
+        m_Texture: {fileID: 2800000, guid: 0777ecfa8cc97cc4ab643f6491b61798, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _color_mask:
+        m_Texture: {fileID: 2800000, guid: 0777ecfa8cc97cc4ab643f6491b61798, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _dis_tex:
+        m_Texture: {fileID: 2800000, guid: 578b893799655a044b7a654d2445e849, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mask2_tex:
+        m_Texture: {fileID: 2800000, guid: 96d459f4c2c05614ab5cc97ae95b76cc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mask_tex:
+        m_Texture: {fileID: 2800000, guid: aa52e679615586248b8af3c38f1910aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _trail_tex:
+        m_Texture: {fileID: 2800000, guid: 08dcec18a6ea9c14b95759f823d99f6d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Bias: 0.015
+    - _BlendOp: 0
+    - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _ColorMode: 0
+    - _Color_Bias: 0.5
+    - _Color_Scale: -0.14
+    - _Color_balance: 0.5
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0
+    - _DstBlend: 1
+    - _EmissionEnabled: 0
+    - _FlipbookMode: 0
+    - _Float0: 0.38
+    - _Float1: 0
+    - _Float2: 0
+    - _Float3: 1.07
+    - _Float4: 1
+    - _Float7: -0.2
+    - _Float8: 1.5
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _LightingEnabled: 0
+    - _Main_Scale: 0.7
+    - _Mask_Bias: -0.6
+    - _Mask_Scale: 1.02
+    - _Metallic: 0
+    - _Mode: 4
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Scale: 1
+    - _SmoothnessTextureChannel: 0
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
+    - _SpecularHighlights: 1
+    - _Speed: -1
+    - _Speed1: -1
+    - _SrcBlend: 5
+    - _Tex_v: 1
+    - _Tex_x: 1
+    - _ToggleSwitch0: 1
+    - _UVSec: 0
+    - _ZWrite: 0
+    - __dirty: 0
+    - _color_mask_power: 0
+    - _dis_power: 0.2
+    - _lerp: 0.81
+    - _mask_dark: -0.1
+    - _mask_white: 2.1
+    - _mix_power: 0.85
+    - _nosie_x: 1
+    - _nosie_y: 1
+    - _smoke_power: 0.7
+    - _speed_y: 0
+    - _speed_y1: -1.21
+    m_Colors:
+    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
+    - _Color: {r: 0.8018868, g: 0.8018868, b: 0.8018868, a: 1}
+    - _Color0: {r: 0.4292453, g: 1, b: 0.941732, a: 1}
+    - _Color1: {r: 0.3915094, g: 0.6520674, b: 1, a: 1}
+    - _Color2: {r: 0.3915094, g: 0.6520674, b: 1, a: 1}
+    - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Mask_power: {r: 2.670157, g: 2.670157, b: 2.670157, a: 1}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _Trail_tile: {r: 2, g: 1, b: 0, a: 0}
+    - _Vector0: {r: 1, g: 1.03, b: 0, a: 0}
+    - _Vector1: {r: -1, g: 0, b: 0, a: 0}
+    - _Vector2: {r: 1, g: 1, b: 0, a: 0}
+    - _ahlpaspeed: {r: 1, g: 0.2, b: 0, a: 0}
+    - _dis_Power: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+    - _dis_speed: {r: 0, g: 0, b: 0, a: 0}
+    - _mask_power: {r: 1, g: 1, b: 1, a: 0}
+    - _trail_color1: {r: 3.329454, g: 1.3035126, b: 3.0268977, a: 0}
+    - _trail_color2: {r: 0, g: 1.3904021, b: 2.79544, a: 0}
+    - _trail_speed: {r: -5, g: 0, b: 0, a: 0}
+    - _trailspeed: {r: -0.89, g: 0, b: 0, a: 0}

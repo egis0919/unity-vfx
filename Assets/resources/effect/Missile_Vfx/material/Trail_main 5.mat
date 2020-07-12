@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Trail_main 5
+  m_Shader: {fileID: 4800000, guid: d2eb421c8fa8a524da49a6015e603085, type: 3}
+  m_ShaderKeywords: _ADD_MASK_ON _ALPHABLEND_ON _DISTEX_FILP_ON _DISTEX_UV_TOGGLE_ON
+    _ONEMINUS_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Color_Dis_Tex:
+        m_Texture: {fileID: 2800000, guid: 578b893799655a044b7a654d2445e849, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Dis_Tex:
+        m_Texture: {fileID: 2800000, guid: 578b893799655a044b7a654d2445e849, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 61c0b9c0523734e0e91bc6043c72a490, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_Tex:
+        m_Texture: {fileID: 2800000, guid: 0777ecfa8cc97cc4ab643f6491b61798, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: 578b893799655a044b7a654d2445e849, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture1:
+        m_Texture: {fileID: 2800000, guid: 08dcec18a6ea9c14b95759f823d99f6d, type: 3}
+        m_Scale: {x: 0, y: 0}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 8150f6f43f753a142bcf05fc6eb8f621, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 578b893799655a044b7a654d2445e849, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample3:
+        m_Texture: {fileID: 2800000, guid: 0777ecfa8cc97cc4ab643f6491b61798, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Trail_Tex:
+        m_Texture: {fileID: 2800000, guid: cdeac6f84093f7a4aad78514aa3d26ad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _color_mask:
+        m_Texture: {fileID: 2800000, guid: 0777ecfa8cc97cc4ab643f6491b61798, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _dis_tex:
+        m_Texture: {fileID: 2800000, guid: cdeac6f84093f7a4aad78514aa3d26ad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mask2_tex:
+        m_Texture: {fileID: 2800000, guid: 0777ecfa8cc97cc4ab643f6491b61798, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mask_tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _trail_tex:
+        m_Texture: {fileID: 2800000, guid: a7d1554a1aaaabf4db79903554cc7e0c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Bias: 0.1
+    - _BlendOp: 0
+    - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _ColorMode: 0
+    - _Color_balance: 0.5
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0
+    - _DstBlend: 1
+    - _EmissionEnabled: 0
+    - _FlipbookMode: 0
+    - _Float0: 1.62
+    - _Float1: 1
+    - _Float2: 50
+    - _Float3: 1
+    - _Float4: 1
+    - _Float5: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Lerp_power: 0
+    - _LightingEnabled: 0
+    - _Metallic: 0
+    - _Mode: 4
+    - _NoiseMapStrength: 0
+    - _Noise_power: -5.22
+    - _OcclusionStrength: 1
+    - _Opacity: 1
+    - _Parallax: 0.02
+    - _Power: 1
+    - _Scale: 7.24
+    - _SmoothnessTextureChannel: 0
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
+    - _SpecularHighlights: 1
+    - _Speed: 0.1
+    - _Speed1: -1
+    - _SrcBlend: 5
+    - _Tex_v: 1.81
+    - _Tex_x: 2
+    - _ToggleSwitch0: 0
+    - _TransAmbient: 0.2
+    - _TransDirect: 1
+    - _TransNormalDistortion: 0.1
+    - _TransScattering: 2
+    - _TransShadow: 0.9
+    - _Translucency: 1
+    - _UVSec: 0
+    - _X: 0
+    - _Y: 0
+    - _ZWrite: 0
+    - __dirty: 0
+    - _add_mask: 0
+    - _color_mask_power: 1.03
+    - _disTex_filp: 1
+    - _disTex_uv_toggle: 1
+    - _dis_Bias: -0.25
+    - _dis_Scale: 1
+    - _dis_power: 0.51
+    - _lerp: 0.81
+    - _lerp_power: 0.7745354
+    - _mask_Bias: 0.015
+    - _mask_Scale: 1.5
+    - _mask_dark: -0.1
+    - _mask_white: 2.1
+    - _mix_power: 0.56
+    - _noise_x: 1
+    - _noise_y: 1
+    - _nosie_x: 2
+    - _nosie_y: 1
+    - _oneminus: 1
+    - _power: 0
+    - _smoke_power: 1
+    - _speed_y: -0.3
+    - _speed_y1: -1
+    - _tex_x: 1
+    - _tex_y: 1
+    m_Colors:
+    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
+    - _Color: {r: 0.8018868, g: 0.8018868, b: 0.8018868, a: 1}
+    - _Color0: {r: 0.6148662, g: 0.33481723, b: 0.12471342, a: 1}
+    - _Color1: {r: 0, g: 1, b: 0.8652892, a: 1}
+    - _Color2: {r: 0.3915094, g: 0.6520674, b: 1, a: 1}
+    - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _NoiseMapPannerSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _NoiseMapSize: {r: 512, g: 512, b: 0, a: 0}
+    - _RingPannerSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _TEx: {r: 1, g: 1, b: 0, a: 0}
+    - _Tex_tilie: {r: 0, g: -1, b: 0, a: 0}
+    - _Tint: {r: 0, g: 0, b: 0, a: 0}
+    - _Vector0: {r: 1, g: 1, b: 0, a: 0}
+    - _Vector1: {r: -1, g: 0, b: 0, a: 0}
+    - _Vector2: {r: 1, g: 1, b: 0, a: 0}
+    - _ahlpaspeed: {r: 1, g: 0.2, b: 0, a: 0}
+    - _color_mask_speed: {r: -1, g: 0, b: 0, a: 0}
+    - _dis_Power: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+    - _dis_speed: {r: 0, g: 0, b: 0, a: 0}
+    - _mask_power: {r: 1.290357, g: 1.962264, b: 1.249555, a: 0}
+    - _trail_color1: {r: 1, g: 0.2216981, b: 0.4729252, a: 0}
+    - _trail_color2: {r: 0.309804, g: 0.7646899, b: 0.7921569, a: 0}
+    - _trail_speed: {r: 0, g: -1, b: 0, a: 0}
+    - _trailspeed: {r: -0.89, g: 0, b: 0, a: 0}
