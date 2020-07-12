@@ -21,7 +21,7 @@ MonoBehaviour:
     value: 15
   aperture:
     overrideState: 1
-    value: 3.1
+    value: 7.3
   focalLength:
     overrideState: 1
     value: 146
@@ -52,13 +52,13 @@ MonoBehaviour:
     value: 1
   softKnee:
     overrideState: 1
-    value: 0.668
+    value: 0.39
   clamp:
     overrideState: 0
     value: 65472
   diffusion:
     overrideState: 1
-    value: 7
+    value: 6.73
   anamorphicRatio:
     overrideState: 1
     value: 0
@@ -113,7 +113,7 @@ MonoBehaviour:
     defaultState: 1
   intensity:
     overrideState: 1
-    value: 0.127
+    value: 0.064
   fastMode:
-    overrideState: 1
+    overrideState: 0
     value: 0

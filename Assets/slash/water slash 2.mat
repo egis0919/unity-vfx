@@ -20,6 +20,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Dark_Tex:
+        m_Texture: {fileID: 2800000, guid: cdeac6f84093f7a4aad78514aa3d26ad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture0:
         m_Texture: {fileID: 2800000, guid: e28dc97a9541e3642a48c0e3886688c5, type: 3}
         m_Scale: {x: 2, y: 2}
@@ -34,6 +38,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _TextureSample3:
         m_Texture: {fileID: 2800000, guid: 82a8e66f31a9e654792bee0ab05f9fc8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mask_Tex:
+        m_Texture: {fileID: 2800000, guid: 55190433fa6a8b942ad179dcc3ace216, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _tex3coord2:
@@ -54,15 +62,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Cutoff: 0.1
-    - _Float0: -3.28
+    - _Float0: -3.61
     - _Float1: 0.05
     - _Float14: 10.9
     - _Float15: 3.7
     - _Float18: 0.5
     - _Float19: 1
     - _Float2: 0
-    - _Float4: 3.71
-    - _Float9: 3.08
+    - _Float4: 15
+    - _Float9: 5.07
     - _Particledis: 1
     - _Scale: 1.65
     - _ToggleSwitch0: 1
@@ -72,12 +80,12 @@ Material:
     - _particle: 0
     - _speed1: -0.2
     - _speed2: 1
-    - _speed3: -0.3
+    - _speed3: -2
     - _v: 1
     - _v2: 0
-    - _v3: -0.1
+    - _v3: 0
     m_Colors:
-    - _Color0: {r: 0, g: 0.12888093, b: 0.3490566, a: 0}
-    - _Color1: {r: 0, g: 0.27729678, b: 1.0814574, a: 0}
+    - _Color0: {r: 0.03671235, g: 0.12768508, b: 0.5188679, a: 0}
+    - _Color1: {r: 0, g: 0.3704069, b: 1.4438305, a: 0}
     - _Color2: {r: 0, g: 0, b: 0, a: 0}
-    - _Color3: {r: 0.14974026, g: 0.343848, b: 0.57123137, a: 0}
+    - _Color3: {r: 0, g: 0.3406706, b: 0.735849, a: 0}

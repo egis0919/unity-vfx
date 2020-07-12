@@ -46,7 +46,7 @@ Material:
     m_Floats:
     - _Emission: 3
     - _Float1: 4
-    - _Float2: 0
+    - _Float2: 0.3
     - _Screen_dis_power: 0
     - __dirty: 0
     - _is_cartoon: 0
