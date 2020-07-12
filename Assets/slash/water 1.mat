@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: water
+  m_Name: water 1
   m_Shader: {fileID: 4800000, guid: 5392c4e28b9006749abca6d3a0422b5e, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _ISPARTICLE_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _DissolveTex:
-        m_Texture: {fileID: 2800000, guid: cdeac6f84093f7a4aad78514aa3d26ad, type: 3}
+        m_Texture: {fileID: 2800000, guid: d6a4142c9b03091438fc6311a7d20457, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DistosionTex:
@@ -73,17 +73,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Cutoff: 0.1
-    - _Dis_U: 0.2
-    - _Dis_V: 0.1
-    - _Disolve_Add: 0.1
+    - _Dis_U: -0.5
+    - _Dis_V: -0.1
+    - _Disolve_Add: 0.15
     - _Disolve_Outline_Power: 5
     - _Disolve_Power: 0
     - _Disolve_Powert: 0
-    - _Disolve_U: 0.2
-    - _Disolve_V: 0.1
-    - _Disolve_inside: 5
-    - _Disolve_outline: 8
-    - _Distosion_Power: 0.2
+    - _Disolve_U: -0.5
+    - _Disolve_V: -0.1
+    - _Disolve_inside: 1
+    - _Disolve_outline: 10
+    - _Distosion_Power: 0
     - _EdgeLength: 15
     - _Emission: 1
     - _Float0: -0.11
@@ -95,31 +95,31 @@ Material:
     - _Float28: 1
     - _Float34: 0.5
     - _Float43: 0.1
-    - _Light_U: 1
-    - _Light_V: 0.1
+    - _Light_U: -1.8
+    - _Light_V: -0.1
     - _Light_inside: 2.49
     - _Light_outline: 4.4
     - _Main_Opacity: 12.69
-    - _Main_U: 0.5
+    - _Main_U: -1
     - _Main_V: 0
     - _Main_inside: 2.08
     - _Main_outline: 6.78
     - _MaskTexPower: 4.09
-    - _MaskTex_Power: 4.09
-    - _Mask_Uu: 0.33
+    - _MaskTex_Power: 12.56
+    - _Mask_Uu: -0.79
     - _Mask_Vv: 0
-    - _Mid_U: 0.8
+    - _Mid_U: -1.2
     - _Mid_V: 0
     - _Mid_inside: 4.9
-    - _Mid_outline: 6.63
-    - _Side_Mask_Power: 1.18
+    - _Mid_outline: 6.94
+    - _Side_Mask_Power: 1.54
     - __dirty: 0
-    - _isParticle: 0
+    - _isParticle: 1
     m_Colors:
     - _Color0: {r: 0.095184885, g: 0.10516816, b: 0.21698087, a: 0}
     - _Color2: {r: 0, g: 0.7489877, b: 1, a: 0}
     - _Color3: {r: 0, g: 0.23512316, b: 0.45282984, a: 0}
     - _Color4: {r: 0, g: 0.20000005, b: 1, a: 0}
     - _Light_Color: {r: 1, g: 1, b: 1, a: 0}
-    - _Main_Color: {r: 0, g: 0.23512283, b: 0.45282984, a: 0}
+    - _Main_Color: {r: 0, g: 0.23512262, b: 0.45282984, a: 0}
     - _Mid_Color: {r: 0, g: 0.7489877, b: 1, a: 0}
