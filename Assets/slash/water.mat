@@ -106,13 +106,15 @@ Material:
     - _Main_outline: 6.78
     - _MaskTexPower: 4.09
     - _MaskTex_Power: 4.09
-    - _Mask_Uu: 0.33
+    - _Mask_Uu: 0.12
     - _Mask_Vv: 0
     - _Mid_U: 0.8
     - _Mid_V: 0
     - _Mid_inside: 4.9
     - _Mid_outline: 6.63
     - _Side_Mask_Power: 1.18
+    - _Tessellation: 1
+    - _Vertex_Offset: 0
     - __dirty: 0
     - _isParticle: 0
     m_Colors:

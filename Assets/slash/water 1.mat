@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _DissolveTex:
-        m_Texture: {fileID: 2800000, guid: d6a4142c9b03091438fc6311a7d20457, type: 3}
+        m_Texture: {fileID: 2800000, guid: cd460ee4ac5c1e746b7a734cc7cc64dd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DistosionTex:
@@ -44,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
-        m_Texture: {fileID: 2800000, guid: 3168448258718da4883d5171842babf0, type: 3}
+        m_Texture: {fileID: 2800000, guid: eaf369e23b39b844a9c25b922967372b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MidTex:
@@ -75,17 +75,17 @@ Material:
     - _Cutoff: 0.1
     - _Dis_U: -0.5
     - _Dis_V: -0.1
-    - _Disolve_Add: 0.15
+    - _Disolve_Add: 0.05
     - _Disolve_Outline_Power: 5
     - _Disolve_Power: 0
     - _Disolve_Powert: 0
-    - _Disolve_U: -0.5
+    - _Disolve_U: -1
     - _Disolve_V: -0.1
-    - _Disolve_inside: 1
-    - _Disolve_outline: 10
+    - _Disolve_inside: 3
+    - _Disolve_outline: 5
     - _Distosion_Power: 0
     - _EdgeLength: 15
-    - _Emission: 1
+    - _Emission: 1.2
     - _Float0: -0.11
     - _Float11: 0.2
     - _Float14: 12.69
@@ -97,8 +97,8 @@ Material:
     - _Float43: 0.1
     - _Light_U: -1.8
     - _Light_V: -0.1
-    - _Light_inside: 2.49
-    - _Light_outline: 4.4
+    - _Light_inside: 3
+    - _Light_outline: 5
     - _Main_Opacity: 12.69
     - _Main_U: -1
     - _Main_V: 0
@@ -110,9 +110,11 @@ Material:
     - _Mask_Vv: 0
     - _Mid_U: -1.2
     - _Mid_V: 0
-    - _Mid_inside: 4.9
-    - _Mid_outline: 6.94
+    - _Mid_inside: 5
+    - _Mid_outline: 8
     - _Side_Mask_Power: 1.54
+    - _Tessellation: 1
+    - _Vertex_Offset: 0
     - __dirty: 0
     - _isParticle: 1
     m_Colors:
@@ -121,5 +123,5 @@ Material:
     - _Color3: {r: 0, g: 0.23512316, b: 0.45282984, a: 0}
     - _Color4: {r: 0, g: 0.20000005, b: 1, a: 0}
     - _Light_Color: {r: 1, g: 1, b: 1, a: 0}
-    - _Main_Color: {r: 0, g: 0.23512262, b: 0.45282984, a: 0}
+    - _Main_Color: {r: 0, g: 0.23512256, b: 0.45282984, a: 0}
     - _Mid_Color: {r: 0, g: 0.7489877, b: 1, a: 0}
